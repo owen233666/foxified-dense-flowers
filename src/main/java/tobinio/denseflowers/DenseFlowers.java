@@ -1,16 +1,19 @@
 package tobinio.denseflowers;
 
-import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.api.ModInitializer;
 
+import com.mojang.logging.LogUtils;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.common.Mod;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class DenseFlowers implements ClientModInitializer {
-    public static final Logger LOGGER = LoggerFactory.getLogger("dense-flowers");
+@Mod(DenseFlowers.MOD_ID)
+public class DenseFlowers{
+    public static final String MOD_ID = "denseflower";
+    public static final Logger LOGGER = LogUtils.getLogger();
 
-    @Override
-    public void onInitializeClient() {
+    public DenseFlowers(ModContainer modContainer){
 
     }
+
 }
