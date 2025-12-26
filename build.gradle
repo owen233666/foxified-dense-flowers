@@ -155,8 +155,8 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
     // NeoGradle/ModDevGradle/VanillaGradle project
     compileOnly('maven.modrinth:sodium:mc1.21.1-0.6.13-neoforge')
-    jarJar(group: "org.sinytra.forgified-fabric-api", name: "fabric-api-base", version: "[0.4.42+d1308ded19,)")
-    jarJar(group: "org.sinytra.forgified-fabric-api", name: "fabric-renderer-api-v1", version: "[3.4.0+acb05a3919,)")
+    //jarJar(group: "org.sinytra.forgified-fabric-api", name: "fabric-api-base", version: "[0.4.42+d1308ded19,)")
+    //jarJar(group: "org.sinytra.forgified-fabric-api", name: "fabric-renderer-api-v1", version: "[3.4.0+acb05a3919,)")
     compileOnly(group: "org.sinytra.forgified-fabric-api", name: "fabric-api-base", version: "[0.4.42+d1308ded19,)")
     compileOnly(group: "org.sinytra.forgified-fabric-api", name: "fabric-renderer-api-v1", version: "[3.4.0+acb05a3919,)")
 }
